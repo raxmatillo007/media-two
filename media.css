@@ -1,0 +1,50 @@
+@media screen and (max-width:768px) {
+    .row {
+        flex-wrap: wrap;
+        .col-one {
+            width: 50%;
+            height: 50dvh;
+
+        }
+
+        .col-two {
+            width: 50%;
+            height: 50dvh;
+        }
+
+        .col-three {
+            width: 50%;
+            height: 50dvh;
+        }
+
+        .col-four {
+            width: 50%;
+            height: 50dvh;
+        }
+    }
+}
+
+@media screen and (max-width:360px) {
+    .row {
+        .col-one {
+            width: 100%;
+            height: 25dvh;
+        }
+
+        .col-two {
+            width: 100%;
+            height: 25dvh;
+        }
+
+        .col-three {
+            width: 100%;
+            height: 25dvh;
+        }
+
+        .col-four {
+            width: 100%;
+            height: 25dvh;
+        }
+    }
+
+}
